@@ -54,3 +54,7 @@ def sum_array(array)
   count
 end
 
+#easier way would be reduce
+def sum_array(array)
+  
+

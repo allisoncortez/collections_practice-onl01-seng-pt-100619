@@ -61,7 +61,7 @@ end
 
 def add_s(array)
   if array
-    array.each do {|word| word << "s"}
+    array.each do |word| word << "s"
   else array[2]
     array[2]
   end

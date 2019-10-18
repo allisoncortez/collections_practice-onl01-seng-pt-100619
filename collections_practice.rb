@@ -60,6 +60,6 @@ end
 # end
 
 def add_s(array)
-  array.each {|word| word + "s"}
+  array.each {|word| word}
 end
 

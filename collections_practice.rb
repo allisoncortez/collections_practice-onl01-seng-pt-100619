@@ -59,3 +59,6 @@ end
 #   array.reduce(:+)
 # end
 
+def add_s(array)
+end
+

@@ -43,7 +43,7 @@ end
 #or
 
 # def find_a(array)
-#   array.select {|string| string[0] == "a"}
+#   array.select {|string| string[0] == "a" || string[0] == "A" }
 # end
 
 def sum_array(array)

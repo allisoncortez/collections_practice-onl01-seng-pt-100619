@@ -34,8 +34,10 @@ def find_a(array)
   array.select {|string| string[0] == "a"}
 end
 
+# we could use downcase if we had a mix of uppercase and lowercase a's, to ensure that we weren't missing the uppercase words
+
 # def find_a(array)
-#   array.select {|string| string[0] == "a"}
+#   array.select.downcase {|string| string[0] == "a"}
 # end
 
 def sum_array(array)

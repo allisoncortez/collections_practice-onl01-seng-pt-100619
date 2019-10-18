@@ -47,6 +47,8 @@ end
 # end
 
 def sum_array(array)
-  array.each do |word|
+  count = 0 
+  array.each do |num|
+    count += num
 end
 

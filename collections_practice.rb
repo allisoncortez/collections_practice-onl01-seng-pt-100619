@@ -40,6 +40,12 @@ end
 #   array.select.downcase {|string| string[0] == "a"}
 # end
 
+#or
+
+# def find_a(array)
+#   array.select {|string| string[0] == "a"}
+# end
+
 def sum_array(array)
   
 end

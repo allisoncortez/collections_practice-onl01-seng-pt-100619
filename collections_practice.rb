@@ -51,6 +51,6 @@ def sum_array(array)
   array.each do |num|
     count += num
   end
-  counter
+  count
 end
 

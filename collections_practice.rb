@@ -60,8 +60,7 @@ end
 # end
 
 def add_s(array)
-  if array
-    array.collect.with_index do |word,index|
+ array.collect.with_index do |word,index|
       if index != 1
       word << "s"
     else

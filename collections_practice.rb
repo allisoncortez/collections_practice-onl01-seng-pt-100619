@@ -46,15 +46,16 @@ end
 #   array.select {|string| string[0] == "a" || string[0] == "A" }
 # end
 
-def sum_array(array)
-  count = 0 
-  array.each do |num|
-    count += num
-  end
-  count
-end
+# def sum_array(array)
+#   count = 0 
+#   array.each do |num|
+#     count += num
+#   end
+#   count
+# end
 
 #easier way would be reduce
 def sum_array(array)
-  
+  array.reduce(:+)
+end
 
